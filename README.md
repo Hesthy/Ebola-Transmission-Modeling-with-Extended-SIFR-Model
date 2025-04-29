@@ -17,10 +17,10 @@ In the 2014 West African Ebola outbreak, traditional funeral practices played a 
 
 ### ➤ Base Model Equations
 
-<pre> ``` S[t+1] = S[t] + μ − μ·S[t] − βS·S[t]·I[t] − βF·S[t]·F[t] 
+<pre>  S[t+1] = S[t] + μ − μ·S[t] − βS·S[t]·I[t] − βF·S[t]·F[t] 
    I[t+1] = I[t] − μ·I[t] + βS·S[t]·I[t] + βF·S[t]·F[t] − γ·I[t] 
    F[t+1] = F[t] + γ·I[t] − σ·F[t] 
-   R[t+1] = R[t] + σ·F[t] ``` </pre>
+   R[t+1] = R[t] + σ·F[t]  </pre>
 ### ➤ Extended Model (Funeral Policy Feedback)
 
 βF → βF / (1 + c · Ft)
