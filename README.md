@@ -23,7 +23,7 @@ In the 2014 West African Ebola outbreak, traditional funeral practices played a 
    R[t+1] = R[t] + σ·F[t]  </pre>
 ### ➤ Extended Model (Funeral Policy Feedback)
 
-βF → βF / (1 + c · Ft)
+<pre> βF → βF / (1 + c · Ft) </pre>
 This modification reduces funeral transmission dynamically as funeral population increases.
 
 ## 📊 How to Run the Simulation
